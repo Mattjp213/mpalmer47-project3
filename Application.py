@@ -68,7 +68,7 @@ if __name__ == "__main__":
     # Part 1 - Run the clustering algorithms on the data sets. ####################################
     ###############################################################################################
     # - Run the k-means clustering experiment on the wine data set.
-    #run_k_means_clustering_experiment(WINE_DATA_SET_FILE_NAME)
+    run_k_means_clustering_experiment(WINE_DATA_SET_FILE_NAME)
     ###############################################################################################
     # - Run the k-means clustering experiment on the adult data set.
     #run_k_means_clustering_experiment(ADULT_DATA_SET_FILE_NAME)
@@ -104,29 +104,29 @@ if __name__ == "__main__":
     # Part 3 - Rerun clustering algorithms after reducing dimensionality of data sets. ############
     ###############################################################################################
     # - Run the k-means clustering experiment on the wine data set with pca dim redux.
-    run_k_means_clustering_experiment_with_pca(WINE_DATA_SET_FILE_NAME)
+    #run_k_means_clustering_experiment_with_pca(WINE_DATA_SET_FILE_NAME)
     # - Run the k-means clustering experiment on the wine data set with ica dim redux.
-    run_k_means_clustering_experiment_with_ica(WINE_DATA_SET_FILE_NAME)
+    #run_k_means_clustering_experiment_with_ica(WINE_DATA_SET_FILE_NAME)
     # - Run the k-means clustering experiment on the wine data set with rand-proj. dim redux.
-    run_k_means_clustering_experiment_with_randomized_projections(WINE_DATA_SET_FILE_NAME)
+    #run_k_means_clustering_experiment_with_randomized_projections(WINE_DATA_SET_FILE_NAME)
     # - Run the k-means clustering experiment on the adult data set with pca dim redux.
-    run_k_means_clustering_experiment_with_pca(ADULT_DATA_SET_FILE_NAME)
+    #run_k_means_clustering_experiment_with_pca(ADULT_DATA_SET_FILE_NAME)
     # - Run the k-means clustering experiment on the adult data set with ica dim redux.
-    run_k_means_clustering_experiment_with_ica(ADULT_DATA_SET_FILE_NAME)
+    #run_k_means_clustering_experiment_with_ica(ADULT_DATA_SET_FILE_NAME)
     # - Run the k-means clustering experiment on the adult data set with rand-proj. dim redux.
-    run_k_means_clustering_experiment_with_randomized_projections(ADULT_DATA_SET_FILE_NAME)
+    #run_k_means_clustering_experiment_with_randomized_projections(ADULT_DATA_SET_FILE_NAME)
     # - Run the exp-max. clustering experiment on the wine data set with pca dim redux.
-    run_expectation_maximization_clustering_experiment_with_pca(WINE_DATA_SET_FILE_NAME)
+    #run_expectation_maximization_clustering_experiment_with_pca(WINE_DATA_SET_FILE_NAME)
     # - Run the exp-max. clustering experiment on the wine data set with ica dim redux.
-    run_expectation_maximization_clustering_experiment_with_ica(WINE_DATA_SET_FILE_NAME)
+    #run_expectation_maximization_clustering_experiment_with_ica(WINE_DATA_SET_FILE_NAME)
     # - Run the exp-max. clustering experiment on the wine data set with rand-proj. dim redux.
-    run_expectation_maximization_clustering_experiment_with_randomized_projections(WINE_DATA_SET_FILE_NAME)
+    #run_expectation_maximization_clustering_experiment_with_randomized_projections(WINE_DATA_SET_FILE_NAME)
     # - Run the exp-max. clustering experiment on the adult data set with pca dim redux.
-    run_expectation_maximization_clustering_experiment_with_pca(ADULT_DATA_SET_FILE_NAME)
+    #run_expectation_maximization_clustering_experiment_with_pca(ADULT_DATA_SET_FILE_NAME)
     # - Run the exp-max. clustering experiment on the adult data set with ica dim redux.
-    run_expectation_maximization_clustering_experiment_with_ica(ADULT_DATA_SET_FILE_NAME)
+    #run_expectation_maximization_clustering_experiment_with_ica(ADULT_DATA_SET_FILE_NAME)
     # - Run the exp-max. clustering experiment on the adult data set with rand-proj. dim redux.
-    run_expectation_maximization_clustering_experiment_with_randomized_projections(ADULT_DATA_SET_FILE_NAME)
+    #run_expectation_maximization_clustering_experiment_with_randomized_projections(ADULT_DATA_SET_FILE_NAME)
 
     ###############################################################################################
     # Part 4 - Rerun neural network algorithm on 1 data set with reduced dimensionality. ##########
